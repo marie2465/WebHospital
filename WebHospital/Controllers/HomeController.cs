@@ -11,7 +11,7 @@ namespace WebHospital.Controllers
         public ActionResult Index()
         {
             ViewBag.Title = "Home Page";
-
+            int i;
             return View();
         }
     }
